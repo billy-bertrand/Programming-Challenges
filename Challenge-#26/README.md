@@ -8,8 +8,7 @@
 - Just for fun 😎.
 
 `How should reviewers run the code`:
-Run the following command:
-```md
-gcc -o main -IC:\Users\billy\Desktop\Challenge-#26\include main.c vector2d.c
-```
-*Note: Make sure you have `GCC` installed!* 🤠
+
+- Using `GCC`, compile the `main.c` and `vector2d.c` files
+
+*Note: Be sure to add the `include` folder in GCC's include path. You can do that using the `-I` flag* 🤠
