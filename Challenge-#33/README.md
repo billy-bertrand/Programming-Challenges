@@ -40,3 +40,7 @@ Examples:
 2. For EACH possible arrangement: a) I assign the cars to either assembly lines, depending on availibility. b) I store the number of car produced in a variable. c) I make sure the keep the highest nb of car produced as I iterate through the list.
 
 3. By the end of step 2, the variable holding the number of cars produced has the highest value. I just *return* it. 🤠
+
+`Useful Resources`:
+
+- https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
