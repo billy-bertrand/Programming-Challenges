@@ -1,12 +1,12 @@
-# Programming-Challenges
-This repository hosts all programming challenges I worked on from its date of creation till today :)
+# Programming-Dojo
+This repository is my practice area. It hosts programming exercises I worked on to :)
 
 # How is the repository organized?
-This repo is organized into folders. Each folder represents a programming challenge, and is named following the this scheme: `Challenge-#n`.
+This repo is organized into folders. Each folder represents a programming exercise, and is named following the this scheme: `Challenge-#n`.
 
 Each folder contains:
 - A `README.md` file, giving information about the challenge.
-- An `include` folder, to store header files.
+- [optionally] An `include` folder, to store header files.
 - A `src` folder, to store source files.
 
 # Why Am I doing this?
