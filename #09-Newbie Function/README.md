@@ -1,5 +1,3 @@
-`Challenge Number`: #36
-
 `Programming language used`: C
 
 `Prompt`:

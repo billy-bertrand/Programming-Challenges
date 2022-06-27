@@ -1,7 +1,3 @@
-`Challenge Number`: #37
-
-`Programming language used` Python
-
 `Prompt`:
 
 Re - create a loading bar in terminal, by myself.

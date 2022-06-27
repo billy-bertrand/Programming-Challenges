@@ -1,5 +1,3 @@
-`Challenge Number`: #26
-
 `Programming language used`: C
 
 `Prompt`: Create a `Vector` Object that holds an `x` & `y` `Float` value, Add functions to this object that add, subtract, and functions to multiply and divide vector objects by a scalar.

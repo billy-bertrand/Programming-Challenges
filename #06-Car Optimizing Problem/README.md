@@ -1,5 +1,3 @@
-`Challenge Number`: #33
-
 `Programming language used`: Python
 
 `Prompt`: 

@@ -1,5 +1,3 @@
-`Challenge Number`: #4
-
 `Programming language used`: Java
 
 `Prompt`:

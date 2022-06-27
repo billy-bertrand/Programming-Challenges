@@ -1,5 +1,3 @@
-`Challenge Number`: #27
-
 `Programming language used`: C
 
 `Prompt`: Consider the following list of randomly generated integers:
