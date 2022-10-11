@@ -1,6 +1,4 @@
-`Programming Language Used`: Python
-
-`Prompt`:
+# Problem statement
 
 We have a two-dimensional board game involving snakes.
 The board has two types of squares on it: +’s represent
@@ -35,3 +33,48 @@ in the board will be either + or 0. All coordinate
 (input and output) are zero-based. All start positions
 will be 0, and be on the edge of the board. For example,
 (0,0) would be the top left corner of any size input.
+
+# Example Input
+
+Consider the following board:
+
+```
+  +  +  +  +  +  +  +  0  0
+  +  +  0  0  0  0  0  +  +
+  0  0  0  0  0  +  +  0  +
+  +  +  0  +  +  +  +  0  0
+  +  +  0  0  0  0  0  0  +
+  +  +  0  +  +  0  +  0  +
+```
+
+If a snake starts at the edge on the left (row 2 column 0), the snake will take the following path to another edge square (an exit)
+
+```
+         +  +  +  +  +  +  +  0  0
+         +  +  0  0  0  0  0  +  +
+start ->[0][0][0] 0  0  +  +  0  +
+         +  + [0] +  +  +  +  0  0
+         +  + [0] 0  0  0  0  0  +
+         +  + [0] +  +  0  +  0  +
+          end  ^
+```
+
+If the snake starts where the last one ended (row 5 column 2), the snake has two paths of length 5:
+
+```
+  +  +  +  +  +  +  +  0  0
+  +  +  0  0  0  0  0  +  +
+ [0][0][0] 0  0  +  +  0  +
+  +  + [0] +  +  +  +  0  0
+  +  + [0] 0  0  0  0  0  +
+  +  + [0] +  +  0  +  0  +
+
+  +  +  +  +  +  +  +  0  0
+  +  +  0  0  0  0  0  +  +
+  0  0  0  0  0  +  +  0  +
+  +  +  0  +  +  +  +  0  0
+  +  + [0][0][0][0] 0  0  +
+  +  + [0] +  + [0] +  0  +
+```
+
+For possible exits of (2, 0) and (5, 5). Since these are the same length, we take the one with the lowest row value first, and we return (2, 0). If the row value were the same, we’d take the one with the lowest column value
