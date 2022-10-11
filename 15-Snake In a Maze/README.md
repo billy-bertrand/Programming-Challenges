@@ -78,3 +78,17 @@ If the snake starts where the last one ended (row 5 column 2), the snake has two
 ```
 
 For possible exits of (2, 0) and (5, 5). Since these are the same length, we take the one with the lowest row value first, and we return (2, 0). If the row value were the same, we’d take the one with the lowest column value
+
+# Learning Objective(s)
+
+- Practice recursion and backtracking
+
+# How did I solve the problem
+
+The core of my solution is the `solve` function. `
+
+1. `solve` starts at starting position of the snake.
+
+2. Tests whether we reached a potential exits
+
+3. If it is an exit, the coordinate is added to the list `exits`
