@@ -85,10 +85,7 @@ For possible exits of (2, 0) and (5, 5). Since these are the same length, we tak
 
 # How did I solve the problem
 
-The core of my solution is the `solve` function. `
-
-1. `solve` starts at starting position of the snake.
-
-2. Tests whether we reached a potential exits
-
-3. If it is an exit, the coordinate is added to the list `exits`
+The core of my solution is the `solve` function. Solve _recursively_ visits adjacent cells,
+and mark them as "visited". It keeps track of visited cells using `solMatrix`. The function
+returns (i.e. backtracks) when trying to visit an 'out-of-bound' cell, an unsafe cell, or
+an already visited cell.
